@@ -1,0 +1,14 @@
+{"region": "us-east-1", "revoked_rules": [
+  {
+    "rds_sg": "sg-0227803a284775f00",
+    "eks_sg": "sg-0f5385ecaeae43eef",
+    "port": 3306,
+    "db_id": "retail-store-catalog-one"
+  },
+  {
+    "rds_sg": "sg-005d969aaae848ceb",
+    "eks_sg": "sg-0f5385ecaeae43eef",
+    "port": 5432,
+    "db_id": "retail-store-orders-one"
+  }
+]}
